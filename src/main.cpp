@@ -173,7 +173,7 @@ void UpdateTemperature() {
     displayTxt += temp;
     displayTxt += (char)223; //178
     displayTxt += "c";
-    Print(displayTxt);
+    Print(displayTxt); //TODO: Issue 1
   }
 
   //TempDebug
