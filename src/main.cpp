@@ -76,6 +76,23 @@ void OverlapDisplay(int overlapWith) {
   }
 }
 
+void Println(String txt, int line) {
+
+  for(unsigned int i = 0; i <= 15; i++) {
+
+    Lcd.setCursor(i, line);
+
+    if(i > txt.length() - 1) {
+      
+      Lcd.write(32);
+    }
+    else {
+
+      Lcd.write(txt[i]);
+    }
+  }
+}
+
 void Start() {
   
   //Presentation
@@ -294,23 +311,6 @@ void Print(String txt) {
 
         Lcd.write(txt[i + 16]);
       }
-    }
-  }
-}
-
-void Println(String txt, int line) {
-
-  for(unsigned int i = 0; i <= 15; i++) {
-
-    Lcd.setCursor(i, line);
-
-    if(i > txt.length() - 1) {
-      
-      Lcd.write(32);
-    }
-    else {
-
-      Lcd.write(txt[i]);
     }
   }
 }
