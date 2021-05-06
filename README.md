@@ -1,4 +1,4 @@
-# TempMonitorFW
+<p># TempMonitorFW</p>
 <h1>Monitor de Temperatura Automotivo</h1>
 <p>O c&oacute;digo faz parte de um projeto de monitor de temperatura automotivo com Ardu&iacute;no nano. O principal objetivo &eacute; controlar a velocidade da ventoinha do carro de acordo com a temperatura da &aacute;gua, mais destalhes a seguir:</p>
 <h2>Componentes:</h2>
@@ -21,8 +21,9 @@
     <li>Interruptor deslizante</li>
     <li>8 Baterias AA 1.5v (total: 12v)</li>
 </ol>
+<p><span style="color: rgb(250, 197, 28);"><em><strong><span style="font-size: 19px;">Ainda em desenvolvimento! Alguns componentes podem mudar...</span></strong></em></span></p>
 <h2>Funcionamento do c&oacute;digo:</h2>
-<p>*Pinos comentados no topo do c&oacute;digo</p>
+<p>*Pinos no topo do c&oacute;digo</p>
 <ol>
     <li>energizar</li>
     <li>apresenta&ccedil;&atilde;o no display</li>
